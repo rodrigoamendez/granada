@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light nav-styles">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="../index.html">Granada</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../sections/pendientes.html">Pendientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../sections/anillos.html">Anillos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../sections/relojes.html">Relojes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1 class="titulo-principal">Contacto</h1>
+
+        <section class="container contenedor-form-map">
+            
+            <div class="row">
+
+                <div class="col-md-6">
+                    
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputName" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputLastname" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="inputLastname">
+                        </div>
+                        <div class="col-6">
+                            <label for="inputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="ejemplo@mail.com">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPais" class="form-label">País</label>
+                            <select id="inputPais" class="form-select">
+                                <option selected>Seleccionar...</option>
+                                <option>Argentina</option>
+                                <option>España</option>
+                                <option>Uruguay</option>
+                                <option>Chile</option>
+                                <option>Paraguay</option>
+                                <option>Otro</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label for="inputConsulta" class="form-label">Consulta</label>
+                            <textarea class="form-control" id="inputConsulta"
+                                placeholder="Escriba aquí su consulta..."></textarea>
+                        </div>
+                        
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Recibir novedades y promociones exclusivas
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12 ">
+                            <button type="submit" class="btn button">Enviar</button>
+                        </div>
+                    </form>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1944107774275!2d-58.37696758475928!3d-34.599245164768526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacb0b1afcaf%3A0x8d53a5cf4f399e9c!2zR2FsZXLDrWFzIFBhY8OtZmljbw!5e0!3m2!1ses-419!2sar!4v1667167371502!5m2!1ses-419!2sar" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="container-footer">
+            <div><a href="https://instagram.com/almacendeplata925"><img class="footer-img"
+                        src="https://cdn-icons-png.flaticon.com/512/665/665211.png" alt="Instagram"></a></div>
+
+            <div><a href="https://instagram.com/almacendeplata925"><img class="footer-img"
+                        src="https://cdn-icons-png.flaticon.com/512/665/665209.png" alt="Facebook"></a></div>
+
+            <div><a href="https://instagram.com/almacendeplata925"><img class="footer-img"
+                        src="https://cdn-icons-png.flaticon.com/512/665/665213.png" alt="Pinteres"></a></div>
+
+            <div>
+                <h3 class="footer-txt">Copyright ©2022 Rodrigo Méndez</h3>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
