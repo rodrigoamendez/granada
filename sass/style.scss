@@ -1,0 +1,52 @@
+
+/* Variables */
+
+$color-granada: #FFE0D4;
+
+@mixin sizes ($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin margins ($margin-top, $margin-bottom){
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+}
+
+/* Imports */
+
+@import "fuente";
+@import "generales";
+@import "media";
+
+
+
+/* Index */
+
+.landing-img {
+    @include sizes (100%, auto);
+    margin: 0%;
+}
+
+/* Galerias */
+
+.container-galeria {
+    @include margins (3%, 3%);
+}
+
+/* Contacto */
+.mapa {
+    @include sizes (100%, 100%);
+}
+
+.contenedor-form-map {
+    @include margins (3%, 5%);
+}
+
+.button {
+    background-color: $color-granada;
+    color: white;
+    transition-duration: 0.4s;
+    border: black;
+    margin-bottom: 3%;
+}

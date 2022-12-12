@@ -1,0 +1,168 @@
+/* Variables */
+/* Imports */
+@font-face {
+  font-family: baronNeue;
+  src: url("../assets/baron_neue/baronNeue.otf");
+}
+body {
+  font-family: baronNeue;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar */
+.nav-styles {
+  background-color: #FFE0D4;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  color: white;
+}
+
+/* Footer */
+.container-footer {
+  background-color: #FFE0D4;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.footer-img {
+  width: 4.5vw;
+}
+
+.titulo-principal {
+  font-size: 8vw;
+  text-align: center;
+  margin-top: 10%;
+}
+@media (min-width: 576px) {
+  .titulo-principal {
+    margin-top: 6%;
+    font-size: 6vw;
+  }
+}
+@media (min-width: 992px) {
+  .titulo-principal {
+    margin-top: 4%;
+    font-size: 3vw;
+  }
+}
+
+.container-categorias {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 576px) {
+  .container-categorias {
+    margin-bottom: 3%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+  }
+}
+
+.img-cat {
+  width: 80vw;
+  height: auto;
+  border: solid black 1px;
+  box-shadow: 0px 0px 60px 3px #ADADAD;
+}
+@media (min-width: 576px) {
+  .img-cat {
+    width: 30vw;
+  }
+}
+@media (min-width: 992px) {
+  .img-cat {
+    width: 20vw;
+  }
+}
+
+.subtitulo-cat {
+  margin-top: 3vw;
+  margin-bottom: 7vw;
+  font-size: 5vw;
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .subtitulo-cat {
+    font-size: 3vw;
+  }
+}
+@media (min-width: 992px) {
+  .subtitulo-cat {
+    font-size: 2vw;
+  }
+}
+
+.footer-txt {
+  font-size: 3vw;
+}
+@media (min-width: 576px) {
+  .footer-txt {
+    font-size: 2vw;
+  }
+}
+@media (min-width: 992px) {
+  .footer-txt {
+    font-size: 1.5vw;
+  }
+}
+
+.galeria-img {
+  width: 40vw;
+}
+@media (min-width: 992px) {
+  .galeria-img {
+    width: 20vw;
+  }
+}
+
+@media (min-width: 576px) {
+  .galeria-img:hover {
+    box-shadow: 0px 0px 30px 3px #ADADAD;
+    transform: scale(1.2);
+  }
+}
+
+/* Index */
+.landing-img {
+  width: 100%;
+  height: auto;
+  margin: 0%;
+}
+
+/* Galerias */
+.container-galeria {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+/* Contacto */
+.mapa {
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor-form-map {
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.button {
+  background-color: #FFE0D4;
+  color: white;
+  transition-duration: 0.4s;
+  border: black;
+  margin-bottom: 3%;
+}/*# sourceMappingURL=style.css.map */
